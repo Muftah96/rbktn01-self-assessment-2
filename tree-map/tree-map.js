@@ -28,10 +28,19 @@
   *  root1.value // still 1
   */
 
+  // I really really squeeze my mind trying to understand what the quation want.
+  // the example made me more Confused
+  // i spent yasterday studing the consepts i think i need more time to digest the matiral
+
 var Tree = function(value) {
   this.value = value;
   this.children = [];
 };
 
+
+
+this.addChild = function(value) {
+  this.children.push(new Tree(value))
+};
 
 
